@@ -835,21 +835,14 @@ const updateBlog = async () => {
         <DialogTitle>Add New Blog</DialogTitle>
         <DialogContent>
           <TextField margin="dense" label="Title" fullWidth
-            value={newBlog.title} 
-            onChange={(e) => {
-              const t = e.target.value;
-              setNewBlog({
-                ...newBlog,
-                title: t,
-                slug: slugify(t) // 🔥 auto slug
-              });
-            }}
+            value={newBlog.title}  onChange={(e) => setNewBlog({ ...newBlog, title: e.target.value })}
             />
           <TextField
             margin="dense"
             label="Slug"
             fullWidth
             value={newBlog.slug}
+            onChange={(e) => setNewBlog({ ...newBlog, slug: e.target.value })}
           />
           <p>The URL on website will be {newBlog.slug && Live_webiste_URL+'/'+newBlog.slug}</p>
           <TextField margin="dense" label="Author" fullWidth
@@ -1065,21 +1058,14 @@ const updateBlog = async () => {
         <DialogTitle>Edit Blog</DialogTitle>
         <DialogContent>
           <TextField margin="dense" label="Title" fullWidth
-            value={editBlog.title} 
-            onChange={(e) => {
-              const t = e.target.value;
-              setEditBlog({
-                ...editBlog,
-                title: t,
-                slug: slugify(t)
-              });
-            }}
-            />
+            value={editBlog.title}  onChange={(e) => setEditBlog({ ...editBlog, title: e.target.value })} />
           <TextField
             margin="dense"
             label="Slug"
             fullWidth
             value={editBlog.slug}
+            onChange={(e) => setEditBlog({ ...editBlog, slug: e.target.value })}
+            
           />
           <TextField margin="dense" label="Author" fullWidth
             value={editBlog.author} onChange={(e) => setEditBlog({ ...editBlog, author: e.target.value })} />
