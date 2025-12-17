@@ -1,0 +1,165 @@
+.addBtn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addBtn:hover {
+  background-color: #42ca61;
+}
+.updateBtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.updateBtn:hover {
+  background-color: #288ffd;
+}
+.deleteBtn {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deleteBtn:hover {
+  background-color: #e63946;
+}
+.canclenbtn{
+  background-color: #6c757d;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.canclenbtn:hover {
+  background-color: #868e96;
+}
+.primaryColor{
+  background-color: #f9f9f9;
+}
+.ql-snow.ql-editor {
+  background: #fff;
+}
+
+.dark .ql-snow.ql-editor {
+  background: #1e1e1e;
+  color: white;
+}
+/* Add this to your global CSS file or in a style tag */
+.ql-font-arial {
+  font-family: Arial, sans-serif !important;
+}
+.ql-font-helvetica {
+  font-family: Helvetica, sans-serif !important;
+}
+.ql-font-times-new-roman {
+  font-family: "Times New Roman", serif !important;
+}
+.ql-font-times {
+  font-family: Times, serif;
+}
+.ql-font-courier-new {
+  font-family: "Courier New", monospace;
+}
+.ql-font-courier {
+  font-family: Courier, monospace;
+}
+.ql-font-verdana {
+  font-family: Verdana, sans-serif;
+}
+.ql-font-georgia {
+  font-family: Georgia, serif;
+}
+.ql-font-palatino {
+  font-family: Palatino, serif;
+}
+.ql-font-garamond {
+  font-family: Garamond, serif;
+}
+.ql-font-bookman {
+  font-family: Bookman, serif;
+}
+.ql-font-comic-sans-ms {
+  font-family: "Comic Sans MS", cursive;
+}
+.ql-font-trebuchet-ms {
+  font-family: "Trebuchet MS", sans-serif;
+}
+.ql-font-arial-black {
+  font-family: "Arial Black", sans-serif;
+}
+.ql-font-impact {
+  font-family: Impact, sans-serif;
+}
+.ql-font-lucida-sans-unicode {
+  font-family: "Lucida Sans Unicode", sans-serif;
+}
+.ql-font-tahoma {
+  font-family: Tahoma, sans-serif;
+}
+.ql-font-geneva {
+  font-family: Geneva, sans-serif;
+}
+.ql-toolbar .ql-undo::before {
+  content: "↶";
+}
+
+.ql-toolbar .ql-redo::before {
+  content: "↷";
+}
+
+.ql-toolbar .ql-special::before {
+  content: "Ω";
+}
+
+.ql-toolbar .ql-pasteText::before {
+  content: "T";
+}
+.custom-toggle-button {
+  border: 1px solid #bebebeff;
+  border-bottom: none;
+  color: #2A3547;
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-toggle-button:first-child {
+  border-right: none;
+}
+
+.custom-toggle-button:last-child {
+  border-right: 1px solid #bebebeff;
+}
+
+.custom-toggle-button:hover {
+  background-color: #f1f1f1;
+  border-color: #a8a8a8;
+  color: rgb(0, 0, 0);
+}
+
+.custom-toggle-button:active {
+  background-color: #e3f2fd;
+  transform: scale(0.98);
+}
+
+.custom-toggle-button.active {
+  background-color: #f1f1f1;
+  color: rgb(0, 0, 0);
+}
+
+.custom-toggle-button.active:hover {
+  background-color: #f1f1f1;
+}
